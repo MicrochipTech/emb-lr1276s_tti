@@ -4,7 +4,7 @@
 <p>
 
 <a href="http://www.embit.eu/products/wireless-modules/emb-lr1276s/" target="_blank">
-<img border="0" alt="Embit_logo" src"http://www.embit.eu/wp-content/uploads/Embit_round_logo_23.png" width="150">
+<img border="0" alt="Embit_logo" src"Doc/embit_logo.png" width="150">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 
 <a href="https://www.microchip.com/design-centers/security-ics/trust-platform/trust-go/trust-go-lora-secure-authentication-with-join-servers" target="_blank">
@@ -47,11 +47,7 @@ The EMB-LR1276S LoRaWAN module embeds a Microchip SAM R34 LoRa(r) device and the
 <p>
 
 <a href="http://www.embit.eu/products/wireless-modules/emb-lr1276s/" target="_blank">
-<img border="0" alt="EMB-LR127S Block Diagram" src="Doc/EMB-LR1276S_Block_Diagram.png" width="150">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-
-<a href="http://www.embit.eu/products/wireless-modules/emb-lr1276s/" target="_blank">
-<img border="0" alt="EMB-LR127S" src="Doc/EMB-LR1276S.png" width="150">
+<img border="0" alt="EMB-LR127S" src="Doc/EMB-LR1276S.png" width="200">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 
 <a href="https://www.microchip.com/wwwproducts/en/ATSAMR34J18" target="_blank">
@@ -64,6 +60,10 @@ The EMB-LR1276S LoRaWAN module embeds a Microchip SAM R34 LoRa(r) device and the
 
 </p>
 </a>
+
+</br>
+![](Doc/EMB-LR1276S-Dev_Board.png)
+</br>
 
 Purchase the <a href="http://www.embit.eu/products/evaluation-kits/emb-lr1276s-evk/" target="_blank">EMB-LR1276S Evaluation board</a>
 </br>
@@ -99,9 +99,9 @@ Until the next Atmel Studio IDE release, you have to manually install the Device
 - Repeat the same for SAMR35 </br>
 - Restart Atmel Studio 7.0 IDE </br>
 
-- Download and install Segger J-Link Software and Documentation pack (version 6.42 or higher)</br>
+
+Download and install Segger J-Link Software and Documentation pack (version 6.42 or higher)</br>
 https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack
-</br>
 
 
 ## Hardware setup <a name="step3"></a>
@@ -110,7 +110,7 @@ https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack
 - Attach a USB cable to EMB-LR1276S-DEV_BOARD's CMD_USB micro-B port. The USB ports powers the board and enables the user to communicate with the kits over a serial console.
 - Plug the Segger J-Link Lite board to the EMB-LR1276S-DEV_BOARD's JTAG connector (2x10 ways 2.54mm pitch male header)
 - Attach a USB cable to J-Link Lite board
-</br>
+
 ![](Doc/setup.png)
 </br>
 
@@ -123,8 +123,10 @@ Open the "APPS_ENDDEVICE_DEMO" project with Atmel Studio 7 IDE</br>
 From the top menu, go to Project -> APPS_ENDDEVICE_DEMO Properties</br>
 From Tool settings, select your board as SAM-ICE with SWD interface</br>
 Make sure to select ATSAMR34J18 from the list</br>
-![](Doc/J-LINK_PROGRAMMING.png)
+
+![](Doc/J-LINK_Programming.png)
 </br>
+
 Build and download the project by clicking the empty green "Run without debugging" triangle
 </br>
 ![](Doc/AtmelStudio.png)
