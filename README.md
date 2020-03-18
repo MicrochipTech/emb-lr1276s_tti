@@ -47,7 +47,7 @@ The EMB-LR1276S LoRaWAN module embeds a Microchip SAM R34 LoRa(r) device and the
 <p>
 
 <a href="http://www.embit.eu/products/wireless-modules/emb-lr1276s/" target="_blank">
-<img border="0" alt="EMB-LR127S" src="Doc/EMB-LR1276S.png" width="200">
+<img border="0" alt="EMB-LR127S" src="Doc/EMB-LR1276S.png" width="220">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 
 <a href="https://www.microchip.com/wwwproducts/en/ATSAMR34J18" target="_blank">
@@ -61,8 +61,7 @@ The EMB-LR1276S LoRaWAN module embeds a Microchip SAM R34 LoRa(r) device and the
 </p>
 </a>
 
-</br>
-![](Doc/EMB-LR1276S-Dev_Board.png)
+![](Doc/EMB-LR1276S_Block_Diagram.png)
 </br>
 
 Purchase the <a href="http://www.embit.eu/products/evaluation-kits/emb-lr1276s-evk/" target="_blank">EMB-LR1276S Evaluation board</a>
