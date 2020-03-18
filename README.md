@@ -4,7 +4,7 @@
 <p>
 
 <a href="http://www.embit.eu/products/wireless-modules/emb-lr1276s/" target="_blank">
-<img border="0" alt="Embit_logo" src"Doc/embit_logo.png" width="150">
+<img border="0" alt="Embit_logo" src="Doc/embit_logo.png" width="150">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 
 <a href="https://www.microchip.com/design-centers/security-ics/trust-platform/trust-go/trust-go-lora-secure-authentication-with-join-servers" target="_blank">
